@@ -1,0 +1,514 @@
+@media (min-width: 771px) and (max-width: 1130px){
+#tr_leftpart100_resp{
+    display: inherit !important;
+}
+
+.tr_leftpart100{
+    display: none;
+}
+
+#respuesta{
+    display: none;
+}
+
+#respuesta_resp{
+    display: inherit !important;
+}
+
+#td_div_leftpart_tema_resp{
+    border: 1px solid #731D09;
+}
+
+#td_div_leftpart_tema1_resp{
+    border: 1px solid #731D09;
+}
+
+#td_div_rightpart_tema_resp{
+    border: 1px solid #731D09;
+    padding-bottom: -50px;
+}
+}
+
+
+@media (min-width: 455px) and (max-width: 770px){
+
+    #userbar_footer{
+        display: block !important;
+        margin: 0 auto;
+        font-weight: bold;
+        border: 2px solid #BF5B45;
+        font-family: 'Marvel', sans-serif;
+}
+    #userbar_footer a:hover{
+    color: #BF5B45;
+}
+    #userbar{
+        display: none;
+    }
+    .tr_leftpart100 {
+    width: 50%;
+    color: #FFFFFF;
+    font-family: 'Marvel', sans-serif;
+
+}
+#tr_leftpart100_resp{
+    display: inherit !important;
+}
+
+.tr_leftpart100{
+    display: none;
+}
+
+#respuesta{
+    display: none;
+}
+
+#respuesta_resp{
+    display: inherit !important;
+}
+
+#td_div_leftpart_tema_resp{
+    border: 1px solid #731D09;
+}
+
+#td_div_leftpart_tema1_resp{
+    border: 1px solid #731D09;
+}
+
+#td_div_rightpart_tema_resp{
+    border: 1px solid #731D09;
+    padding-bottom: -50px;
+}
+}
+@media screen and (max-width: 454px){
+
+    #submenu{
+        display: none;
+    }
+
+    #submenu_display_mini{
+        display: inherit !important;
+        position: relative;
+        font-family: 'Marvel', sans-serif;
+        height: 380%;
+        font-weight: bold;
+        margin-top: .3em;
+    }
+
+    #submenu_display_mini select{
+        background: blue;
+        font-family: 'Marvel', sans-serif;
+        background-color: #CDD9A3;
+    border: 2px solid #707070;
+    color: #BF5B45;
+    height: 20%;
+    font-weight: bold;
+    }
+
+    #userbar_footer{
+        display: block !important;
+        margin: 0 auto;
+        font-weight: bold;
+        border: 2px solid #BF5B45;
+        font-family: 'Marvel', sans-serif;
+}
+    #userbar_footer a:hover{
+    color: #BF5B45;
+}
+    #userbar{
+        display: none;
+    }
+    #tr_leftpart100_resp{
+    display: inherit !important;
+}
+
+.tr_leftpart100{
+    display: none;
+}
+
+#respuesta{
+    display: none;
+}
+
+#respuesta_resp{
+    display: inherit !important;
+}
+
+#td_div_leftpart_tema_resp{
+    border: 1px solid #731D09;
+}
+
+#td_div_leftpart_tema1_resp{
+    border: 1px solid #731D09;
+}
+
+#td_div_rightpart_tema_resp{
+    border: 1px solid #731D09;
+    padding-bottom: -50px;
+}
+}
+
+
+
+/* Estilo de toda la web */
+
+body {
+    background-color: #9FADBF;
+    text-align: center;         /* asegura que la web esté centrada en IE */
+}
+
+#wrapper {
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;             /* centra la web */
+}
+
+#content {
+    background-color: #CDD9A3;
+    float: left;
+    font-family: Arial;
+    padding: 20px 30px;
+    text-align: left;
+    width: 90%;                /* rellena el div entero */
+    clear: both;
+    border: 5px solid #731D09;
+}
+
+/* Estilo de header */
+ 
+#menu {
+    float: left;
+    border: 5px solid #CDD9A3;
+    clear: both;                /* clear:both asegura que el contenido de div no flote al lado pero si que este debajo */
+    width:90%;
+    height:4em;
+    padding: 0 30px;
+    background-color: #731D09;
+    text-align: left;
+    font-size: 100%;
+    font-family: 'Marvel', sans-serif;
+}
+
+#submenu{
+    margin-top: 1.5em;
+    margin-left: 10px;
+
+}
+
+#submenu_display_mini{
+    display: none;
+}
+
+#menu a{
+    padding: -10px;
+    margin-top: 130px;
+    font-family: 'Marvel', sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+
+}
+ 
+#menu a:hover {
+    background-color: #94A167;
+}
+
+#display_medium{
+    display: none;
+}
+ 
+#userbar {
+    color: #CDD9A3;
+    float: right;
+    width: 250px;
+    text-decoration: none;
+}
+#userbar a {
+     color: #CDD9A3;
+     text-decoration: none;
+
+}
+#userbar_footer{
+    display: none;
+    color: #CDD9A3;
+    width: 250px;
+    padding: 0.6em;
+    text-decoration: none;
+}
+
+#userbar_footer a {
+     color: #CDD9A3;
+     text-decoration: none;
+
+}
+
+.item {
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #CDD9A3;
+    border: 1px solid #707070;
+    color: #BF5B45;
+    font-family: Arial;
+    padding: 10px;
+    text-decoration: none;
+}
+
+div #sesion_ini {
+    font-family:  'Marvel', sans-serif;
+    color: #CDD9A3;
+}
+
+ 
+/* Estilo de formularios y tablas */
+form{
+    font-family: 'Marvel', sans-serif;
+    color: #731D09;
+    font-weight: bold;
+} 
+
+.boton{
+    font-family: 'Marvel', sans-serif;
+    width: 6em;
+    color: #731D09;
+    font-weight: bold;
+}
+
+.boton_iniciar{
+    font-family: 'Marvel', sans-serif;
+    width: 6em;
+    color: #731D09;
+    font-weight: bold;
+    margin-left: 0.35em;
+}
+
+input text, select, button, input password {
+  width : 150px;
+  margin: 0;
+
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+          box-sizing: border-box;
+
+          display: inline-block;
+    vertical-align: middle; 
+}
+
+
+
+.large-textarea textarea {
+   font-family: Courier, sans-serif;
+   height: 10em;
+   width: 500px;
+}
+
+.opciones{
+font-family: 'Marvel', sans-serif;
+color: #731D09;
+font-weight: bold;
+}
+
+
+.tabla_index{
+    width: 100%;
+}
+
+.tabla_index a{
+    color: #000;
+}
+
+.tabla_index a:hover {
+    color:#373737;
+    text-decoration: none;
+}
+
+.bordes_tabla{
+    border: 2px solid #731D09;
+    margin-bottom: 0.8px;
+    padding: 2px;
+ }
+
+.th_div{
+    background-color: #731D09;
+    color: #CDD9A3;
+    font-family: 'Marvel', sans-serif;
+    border: 2px solid #707070;
+    font-weight: bold;
+    padding: 2px;
+    font-size: 1.2em;
+}
+.th_div_left{
+    background-color: #731D09;
+    color: #CDD9A3;
+    font-family: 'Marvel', sans-serif;
+    border: 2px solid #707070;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 67%;
+    float: left;
+}
+.th_div_right{
+    background-color: #731D09;
+    color: #CDD9A3;
+    font-family: 'Marvel', sans-serif;
+    border: 2px solid #707070;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 18%;
+    float: left;
+}
+ 
+.td_div {
+    padding: 5px;
+    margin-right: 45px;
+    border: 2px solid #731D09;
+    font-family: 'Marvel', sans-serif;
+    color: #731D09;
+    font-weight: bold;
+}
+
+.td_div_rightpart {
+    border: 2px solid #731D09;
+    font-family: 'Marvel', sans-serif;
+    color: #731D09;
+    font-weight: bold;
+    width: 18%;
+    float: left;
+    padding-bottom: .3em;
+    padding-top: .3em;
+}
+
+.td_div_rightpart_tema {
+    border: 1.5px solid #731D09;
+    font-family: 'Marvel', sans-serif;
+    color: #731D09;
+    font-weight: bold;
+    width: 12%;
+    float: left;
+    text-align: center;
+    position: static;
+
+} 
+
+.td_div_leftpart{
+    border: 2px solid #731D09;
+    font-family: 'Marvel', sans-serif;
+    color: #731D09;
+    font-weight: bold;
+    width: 67%;
+    float: left;
+    padding-bottom: .3em;
+    padding-top: .3em;
+
+}
+
+.td_div_leftpart_tema1{
+    border: 1.5px solid #731D09;
+    font-family: 'Marvel', sans-serif;
+    color: #731D09;
+    font-weight: bold;
+    width: 71%;
+    float: left;
+    padding-left: 1%;
+}
+
+
+.td_div_leftpart_tema{
+    border: 1.5px solid #731D09;
+    font-family: 'Marvel', sans-serif;
+    color: #731D09;
+    font-weight: bold;
+    width: 15%;
+    float: left;
+    text-align: center;
+}
+
+
+.tr_leftpart100 {
+    width: 100%;
+    color: #FFFFFF;
+    font-family: 'Marvel', sans-serif;
+    float: left;
+
+}
+
+#tr_leftpart100_resp {
+    display: none;
+    width: 100%;
+    color: #FFFFFF;
+    font-family: 'Marvel', sans-serif;
+    float: left;
+
+}
+
+#respuesta_resp{
+    display: none;
+}
+ 
+
+.tabla_index .td_div {
+    border: none;
+    border-collapse: collapse;
+    display: block;
+}
+ 
+ 
+/* Estilo de fuentes */
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    color: #BF5B45;
+    text-shadow: 0px 2px #CDD9A3;
+}
+ 
+h3, h2 {
+    margin: 0; 
+    padding: 0;
+    font-family: 'Marvel', sans-serif;
+    color: #731D09;
+
+}
+
+
+h3, h2 a {
+    color: #731D09;
+}
+
+h4{
+    font-family: 'Marvel', sans-serif;
+    color: #731D09;
+}
+
+h4 a{
+    color: #731D09;
+}
+
+h4 a:hover{
+    color: #BF5B45;
+}
+
+p{
+    font-family: 'Marvel', sans-serif;
+    color: #731D09;
+    font-weight: bold;
+ }
+/* Estilo del pie */
+
+#footer {
+    font-size: 65%;
+    padding: 3px 0 0 0;
+}
+ 
+/*.topic-post {
+    height: 100px;
+    overflow: auto;
+}
+ 
+.post-content {
+    padding: 30px;
+}*/
+ 
+
+
+
+
+
+
+
